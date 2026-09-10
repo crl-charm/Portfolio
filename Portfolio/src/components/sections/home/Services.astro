@@ -1,0 +1,42 @@
+---
+// components
+import Container from "../../elements/Container.astro";
+import Heading from "../../elements/Heading.astro";
+import Dropdown from "../../elements/Dropdown.astro";
+import ContainerBottom from "../../elements/ContainerBottom.astro";
+
+// content
+const services = [
+    { 
+        title: "Backend Development",
+        text: "I build reliable backend systems, APIs, and logic that power apps smoothly and efficiently for business and user needs."
+    },
+    { 
+        title: "Frontend Development",
+        text: "I create responsive and user-friendly interfaces using modern web technologies to help products feel clear, functional, and engaging."
+    },
+    { 
+        title: "Database Management",
+        text: "I structure and manage data effectively to support system performance, reporting, inventory tracking, and dashboard functionality."
+    },
+    { 
+        title: "System Architecture",
+        text: "I design practical software solutions with a focus on maintainability, workflow efficiency, and real-world business operations."
+    },
+]
+---
+
+<Container variant={'md'}>
+    <Heading tagName="h2" tagSize="h2" class="text-center">Services</Heading>
+    <div class="flex flex-col gap-4">
+        <Container class="flex flex-col gap-4 p-6 border-3 border-base-900">
+            {
+                services.map((service, index) => (
+                    <Dropdown title=`${index + 1}. ${service.title}` text={service.text} />  
+                ))
+            }       
+        </Container>
+        <ContainerBottom />    
+    </div>
+
+</Container>

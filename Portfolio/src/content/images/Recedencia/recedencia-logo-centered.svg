@@ -1,0 +1,13 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="#F2EFE6"/>
+  <rect x="120" y="120" width="960" height="960" rx="180" fill="#F7D778"/>
+  <circle cx="600" cy="600" r="300" fill="#F7E9B8" stroke="#1C1C1C" stroke-width="10"/>
+  <path d="M430 720C430 575.995 538.995 467 683 467H720C773.019 467 815 508.981 815 562V620C815 673.019 773.019 715 720 715H683C538.995 715 430 606.005 430 462V720Z" fill="#D1A72A" opacity="0.9"/>
+  <path d="M500 575C500 521.98 543.98 478 597 478H600C638.66 478 670 509.34 670 548V598C670 636.66 638.66 668 600 668H597C543.98 668 500 624.02 500 571V575Z" fill="#F3F2ED" stroke="#1C1C1C" stroke-width="10"/>
+  <path d="M540 535L600 595L688 507" stroke="#1C1C1C" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M600 268V396" stroke="#1C1C1C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M465 948C490 885 544 846 600 846C656 846 710 885 735 948" stroke="#1C1C1C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M310 730C366 694 408 650 432 596" stroke="#1C1C1C" stroke-width="18" stroke-linecap="round" opacity="0.7"/>
+  <path d="M890 730C834 694 792 650 768 596" stroke="#1C1C1C" stroke-width="18" stroke-linecap="round" opacity="0.7"/>
+  <text x="600" y="1038" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="700" fill="#1C1C1C">Recedencia</text>
+</svg>

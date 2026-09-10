@@ -1,0 +1,42 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="200" y1="150" x2="960" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6E7A3"/>
+      <stop offset="1" stop-color="#E7BE36"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="390" y1="310" x2="770" y2="890" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F0CF"/>
+      <stop offset="1" stop-color="#E8D28F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#9A7C18" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#F5F2EA"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="600" cy="600" r="360" fill="url(#bg)"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="600" cy="600" r="270" fill="url(#inner)"/>
+    <circle cx="600" cy="600" r="237" stroke="#1D1D1D" stroke-width="10" opacity="0.85"/>
+  </g>
+
+  <g fill="#1A1A1A">
+    <path d="M600 352C503.245 352 424 431.245 424 528C424 586.631 455.116 637.982 497 670.362V710C497 729.882 513.118 746 533 746H667C686.882 746 703 729.882 703 710V670.362C744.884 637.982 776 586.631 776 528C776 431.245 696.755 352 600 352ZM600 392C675.15 392 736 452.85 736 528C736 568.056 717.023 604.105 685.199 628.348L671.5 638.056V710H528.5V638.056L514.801 628.348C482.977 604.105 464 568.056 464 528C464 452.85 524.85 392 600 392Z"/>
+    <path d="M538 780H662C671.389 780 679 787.611 679 797V808C679 817.389 671.389 825 662 825H538C528.611 825 521 817.389 521 808V797C521 787.611 528.611 780 538 780Z"/>
+    <path d="M574 825H626V866C626 884.778 610.778 900 592 900C573.222 900 558 884.778 558 866V825H574Z"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M600 462C560.917 462 528 494.917 528 534C528 543.451 529.239 552.606 531.553 561.248L543.57 603.736H656.43L668.447 561.248C670.761 552.606 672 543.451 672 534C672 494.917 639.083 462 600 462Z" fill="#F4F0E8" stroke="#1A1A1A" stroke-width="8"/>
+    <path d="M550 550H650" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M565 586H635" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="600" y="1004" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="118" font-weight="700" letter-spacing="1.5" fill="#1C1C1C">IdeaFlow</text>
+  </g>
+</svg>
