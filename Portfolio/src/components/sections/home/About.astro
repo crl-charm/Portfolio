@@ -7,20 +7,22 @@ import Link from "../../elements/Link.astro";
 import ImageContainer from "../../elements/ImageContainer.astro";
 
 // assets
-import peter2 from "../../../assets/images/peter2.jpg";
+import peter2 from "../../../assets/images/pic2.jpg";
 ---
 
 <Container variant={'xl'}>
     <Heading tagName="h2" tagSize="h2" class="text-center">About</Heading>
-    <div class="flex lg:flex-row lg:gap-16 gap-10 flex-col">
-        <div class="flex flex-col items-start gap-6 lg:pt-6 text-base-900 lg:flex-1">
-            <Text variant={'xl'}>I build software that is practical, scalable, and meant to be used by real people every day.</Text>
-            <Text variant={'sm'}>My focus is on backend systems, web applications, and database-driven solutions that help businesses manage operations more efficiently. I enjoy solving technical problems and turning business needs into clean, working digital products.</Text>
-            <Text variant={'sm'}>Beyond coding, I’m interested in system architecture, automation, and creating user-friendly interfaces that make software easier to use and more valuable to the people relying on it.</Text>
+    <div class="flex lg:flex-row lg:items-center lg:gap-16 gap-8 flex-col">
+        <div class="flex flex-col items-start gap-5 text-base-900 lg:flex-1 lg:pt-0 pt-2">
+            <Text variant={'xl'} class="max-w-[32rem]">I build software that is practical, scalable, and meant to be used by real people every day.</Text>
+            <Text variant={'sm'} class="max-w-[36rem]">My focus is on backend systems, web applications, and database-driven solutions that help businesses manage operations more efficiently. I enjoy solving technical problems and turning business needs into clean, working digital products.</Text>
+            <Text variant={'sm'} class="max-w-[36rem]">Beyond coding, I’m interested in system architecture, automation, and creating user-friendly interfaces that make software easier to use and more valuable to the people relying on it.</Text>
             <Link variant={'button'} href="/about">More about me</Link>
         </div>
-        <div class="w-full lg:h-[500px] h-auto lg:flex-1">
-            <ImageContainer src={peter2} alt="Carl Nathaniel Oñang" />
+        <div class="w-full lg:max-w-[540px] lg:flex-1 mx-auto lg:mx-0">
+            <div class="w-full max-w-[480px] lg:max-w-none mx-auto lg:mx-0 lg:h-[500px] h-[360px]">
+                <ImageContainer src={peter2} alt="Carl Nathaniel Oñang" />
+            </div>
         </div>
     </div>
 </Container>

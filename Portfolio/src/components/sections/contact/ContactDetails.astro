@@ -2,10 +2,22 @@
 // components
 import Container from "../../elements/Container.astro"
 import ContactItem from "./ContactItem.astro"
+import Link from "../../elements/Link.astro"
 ---
 <Container variant={'md'}>
     <div class="flex lg:flex-row flex-col gap-8 text-base-900">
         <ContactItem title="Email" contact="cadi.onang.ui@phinmaed.com" />
         <ContactItem title="Phone" contact="09665326739" />
+    </div>
+    <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+        <Link href="/cv.pdf" variant="button" download>
+            Download CV
+        </Link>
+        <Link href="/resume.pdf" variant="button" download>
+            Download Resume
+        </Link>
+        <Link href="/resume.pdf" variant="button" newWindow>
+            View Resume in browser
+        </Link>
     </div>
 </Container>
